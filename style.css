@@ -109,6 +109,7 @@ body {
 .description {
     color: hsl(215, 51%, 70%);
     padding-bottom: 15px;
+    font-weight: 300;
 }
 
 .info {
@@ -117,7 +118,7 @@ body {
 
 .info .price {
     color: hsl(178, 100%, 50%);
-
+    font-weight: 700;
 }
 
 
@@ -127,6 +128,7 @@ body {
 
 .info .time_left {
     color: hsl(215, 51%, 70%);
+    font-weight: 300;
 }
 
 .info img {
@@ -135,12 +137,42 @@ body {
     height: 60%;
 }
 
+.line {
+    align-items: flex-end;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    content: "";
+    width: 100%;
+    top: 50%;
+    margin-top: 20px;
+
+
+}
 
 footer {
     margin-top: 20px;
 }
 
-hr {
-    border-top: 0.5px solid hsl(215, 32%, 27%);
-    text-decoration: none;
+.creator {
+    display: flex;
+    max-height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.creator img {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.creator p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.creator span {
+    font-weight: 300;
+    color: white;
 }
